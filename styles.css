@@ -1,0 +1,78 @@
+/* This sets the margins and padding for the body element */
+body {
+    margin: 0;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    min-width: 400px;
+    background-color: #f2f2f2; /* Light gray background */
+    font-size: bold;
+  }
+  
+  /* This sets the styles for the input element */
+  input {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #5f9341;
+    border-radius: 4px; /* Rounded input field */
+    font-size: 16px;
+    background-color: #fff; /* White background */
+    color: #333; /* Dark text color */
+  }
+  
+  /* This sets the styles for the button elements */
+  button {
+    border: none;
+    padding: 10px 20px;
+    background: linear-gradient(45deg, #FFD700, #FF8C00); /* Gradient background from gold to dark orange */
+    color: white;
+    margin-top: 4px;
+    font-weight: bold;
+    border-radius: 30px; /* Rounded buttons with a larger border radius */
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth background color transition */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Box shadow for a subtle 3D effect */
+  
+    /* This sets the styles for the button when it is hovered over */
+    &:hover {
+      background: linear-gradient(45deg, #FFC125, #FF7F00); /* Gradient background from light gold to dark orange on hover */
+    }
+  }
+  
+  /* This sets the styles for the delete button */
+  #delete-btn {
+    background: none;
+    color: #FF4500; /* Dark orange color for delete button */
+    border: 2px solid #FF4500; /* Dark orange border for delete button */
+  
+    /* This sets the styles for the delete button when it is hovered over */
+    &:hover {
+      background-color: #FF4500; /* Dark orange background on hover */
+      color: white;
+    }
+  }
+  
+  /* This sets the styles for the unordered list (ul) element */
+  ul {
+    margin-top: 20px;
+    list-style: none; /* Removes the default bullets from the list items */
+    padding-left: 0; /* Removes the default left margin from the list items */
+  }
+  
+  /* This sets the styles for the list item (li) element */
+  li {
+    margin-top: 5px;
+  }
+  
+  /* This sets the styles for the anchor (a) elements within the list item (li) elements */
+  li a {
+    color: #ff9900; /* New text color (orange) */
+    text-decoration: none;
+    transition: color 0.3s ease; /* Smooth text color transition */
+  
+    /* This sets the styles for the anchor (a) elements within the list item (li) elements when they are hovered over */
+    &:hover {
+      color: #e65c00; /* New text color on hover (darker orange) */
+    }
+  }
+  
