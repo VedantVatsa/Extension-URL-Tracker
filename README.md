@@ -36,4 +36,7 @@ Feel free to contribute to the project by submitting bug reports, feature reques
 
 License
 This project is licensed under the MIT License.
+
+
+
 <img width="318" alt="image" src="https://github.com/VedantVatsa/Extension-URL-Tracker/assets/122670026/94cd4ed2-7590-4a6f-a57a-c03516670e2a">
